@@ -1,5 +1,5 @@
-
+import { Button } from "../components/ui/button";
 
 export default async function Home() {
-  return <div className="text-6xl">Hello world</div>
+  return <Button className="text-xl">Hello world</Button>
 }
